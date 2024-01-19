@@ -3,9 +3,9 @@
 ;; About your weblog
 ;; -----------------
 
-Weblog title: weblog.lol
-Weblog description: omg.lol’s weblog service
-Author: weblog.lol
+Weblog title: Eric's blog
+Weblog description: idk some ramblings and probably pics of my dog
+Author: Eric Bridgeford
 //Canonical domain: weblog.lol
 Landing page: /home
 
@@ -23,8 +23,8 @@ Separator:  ·
 ; You can use a timezone value from the "TZ database name" column on this 
 ; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-Timezone: UTC
-Date format: F j, Y g:i A
+Timezone: EST
+Date format: F j, Y
 
 
 ;; Feeds
