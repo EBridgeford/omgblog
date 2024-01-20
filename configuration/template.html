@@ -162,26 +162,40 @@ td, th {
 </style>
 </head>
 <body>
-
 <header>
-	<h1 class="weblog-title"><a href="/">{weblog-title}</a></h1>
-	{navigation}
+  <h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
+  {navigation}
 </header>
 
 <main>
 
 <article>
-	{body}
-	<aside class="post-tags">
-		{tags}
-	</aside>
+  {body}
 </article>
+
+<div class="weblog-info">
+  <div class="item">
+    <h3 class="current-status">Current Status</h3>
+    <script src="https://status.lol/ericbridgeford.js?time&link"></script>
+    <br\>
+  </div>
+  <div class="item">
+    <h3 class="recent-posts">Last Post</h3>
+    {recent-posts}
+    <br\>
+    <h3 class="more-posts">More Posts</h3>
+    <ul>
+      <li><a href="/archive">All posts</a></li>
+      <li><a href="/random">Random post</a></li>
+    </ul>
+    <br\>
+  </div>
+</div>
 
 </main>
 
 <footer>
 	<p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
 </footer>
-
 </body>
 </html>
