@@ -1,6 +1,3 @@
-Type: Template
-Title: Page Template
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,20 +40,27 @@ body {
 	background: var(--background);
 }
 
-header nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--articleBG);
+    border-radius: 0.5em;
+    font-family: 'VC Honey Deck', sans-serif;
+    line-height: 100%;
 }
 
-header nav li {
-	display: inline-block;
+nav li {
+    list-style-type: none;
 }
 
-header nav li a {
-	display: block;
-	text-decoration: none;
-	margin-right: 1em;
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 10px 15px 10px 15px;
+    align-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
