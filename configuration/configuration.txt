@@ -14,8 +14,9 @@ Landing page: /home
 ;; --------------------
 
 Separator:  · 
-// Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
-
+//Navigation: home, archive another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
+Navigation: home, archive 
+Landing page: home
 
 ;; Time stuff
 ;; ----------
