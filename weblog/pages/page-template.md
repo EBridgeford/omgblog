@@ -21,7 +21,9 @@ Title: Page Template
 	--background: #f8f9fa;
 	--link: #0b7285;
 	--accent: #868e96;
+    --articleBG: #313437;
 }
+
 
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -29,6 +31,7 @@ Title: Page Template
 		--background: #222;
 		--link: #99e9f2;
 		--accent: #ced4da;
+        --articleBG: #313437;
 	}
 }
 
